@@ -1,5 +1,5 @@
 # action-figure-motel
-![logo-image]
+[![white-logo-image][logo-image]
 
 A template to make your own website to display your OCs, worlds, and whatever you'd like built for artists, roleplayers, writers, furries, and all else. 
 
@@ -24,3 +24,4 @@ This work is licensed under a
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [logo-image]:https://mythicalcatjay.neocities.org/logo.png
+[white-logo-image]:https://mythicalcatjay.neocities.org/Action%20Figure%20Motel%20White.png
