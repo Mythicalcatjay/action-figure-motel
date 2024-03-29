@@ -1,5 +1,5 @@
 # action-figure-motel
-[logo-image]
+[![logo-image]]
 A template to make your own website to display your OCs, worlds, and whatever you'd like built for artists, roleplayers, writers, furries, and all else. 
 
 # How to use
