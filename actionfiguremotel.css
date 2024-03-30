@@ -1,0 +1,202 @@
+/* This is the page that controls the style of your website. Html pages have all the content, this makes the content look the way you want. You can use as many or as few style sheets as you'd like */
+
+/* I suggest ctrl+f and replacing: color1, color2, color3, and color4. Manually go in and replace fonts and backgrounds */
+
+/* For a custom font, this is entirely optional. I use Comic Geek Regular since I love the font, but you chose the one that makes you happy. If you want to import a font from google, follow their directions. */
+
+@font-face {
+  font-family: "Font";
+  src: url('font.ttf');
+}
+
+/* Body controls the background, cursor, font, and basic text color. */
+
+body {
+/* For a tiled background image. You can do whatever background image you'd like */
+  background-image: url("tilebg.gif");
+  color: color2;
+/* For a custom cursor, you can use an image (what this is for) but if you use a website that has specific directions, follow their directions. */
+  cursor: url("cursor"), auto;
+  font-family: Your Font;
+}
+
+html, body {
+    height: 98%;
+    width: 99.5%;
+}
+
+/* Make Your Links Pretty */
+
+a {
+ color: color2;  
+}
+
+/* Navbar, Body, and Title */
+
+.body {
+  float: left;
+  margin: 10px 10px;
+  background-color: color1;
+  border: none;
+  overflow: scroll;
+  border-radius: 15px;
+  box-sizing: border-box;
+  
+}
+
+.left {
+  width: 17%;
+  height: 100%;
+  padding: 10px;
+}
+
+.right {
+  width: 80%;
+}
+
+.info {
+  height: 87.25%;
+  padding: 0px 10px;
+  font-size: 15px;
+}
+
+.home {
+  height: 100%;
+  overflow: scroll;
+  padding: 0px 10px;
+  font-size: 15px;
+}
+
+.nav {
+  height: 10%;
+  font-size: 370%;
+  padding: 0px 10px;
+}
+
+/* Buttons */
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: color1;
+  background-color: color2;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px color3;
+  width: 100%;
+  font-family: Your Font;
+}
+
+.button:hover {background-color: color4}
+
+.button:active {
+  background-color: color4;
+  box-shadow: 0 5px color3;
+  transform: translateY(4px);
+}
+
+.trio {
+  width: 22.5%;
+}
+
+/* Tabs */
+
+.buttonWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.wrapper {
+  width: 76%;
+  margin: auto;
+  background-color: none;
+  border-radius: 0px;
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.content {
+  display: none;
+  padding: 10px 20px;
+}
+
+.active {
+  background-color: color4;
+}
+
+.content.active {
+  display: block;
+  background-color: color1;
+}
+
+/* Position Top Image */
+
+.profile {
+ height: 250px;
+ position: fixed;
+ right: 40px;
+ top: 40px;
+ z-index: +1;
+ border: 5px solid color2;
+ transform: rotate(15deg);
+ transition-duration: 0.4s;
+}
+
+.profile:hover {
+  transform: rotate(0deg);
+}
+
+
+.cover {
+  border: 3px solid color2;
+  transform: rotate(0deg);
+  transition-duration: 0.8s;
+}
+
+.cover:hover {
+  border: 5px solid color2;
+  transform: rotate(360deg);
+}
+
+/* Image Rows */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout makes less columns*/
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout makes them stack */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
