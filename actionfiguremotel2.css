@@ -213,11 +213,49 @@ a {
   width: 100%;
 }
 
-/* Responsive layout makes less columns*/
+/* Repsonive Layout*/
 @media screen and (max-width: 800px) {
+  /* Responsive layout makes less columns*/
   .column {
     flex: 50%;
     max-width: 50%;
+  }
+  /* My code for mobile, good lord. */
+  .profile {
+    width: 90vw;
+    order: 1;
+    position: static;
+    transform: rotate(0deg);
+  }
+  .right {
+    width: 90vw;
+    order: 2;
+    overflow: scroll;
+  }
+  .left {
+    width: 90vw;
+    height: 45vh;
+    order: 3;
+    overflow: scroll;
+  }
+  .button {
+    width: 27vw;
+  }
+  .nav {
+    font-size: 4.5rem;
+  }
+  .info {
+    font-size: 1rem;
+  }
+  .buttonWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .wrapper {
+    width:100%;
+  }
+  .left .button {
+    width: 72vw;
   }
 }
 
@@ -228,3 +266,5 @@ a {
     max-width: 100%;
   }
 }
+
+
