@@ -12,7 +12,7 @@ Make your own hotel by importing pages into a website creator like neocities and
 If you have any questions, concerns, or bugs feel free to reach out to me on discord @mythicalcatjay
 
 # Examples
-[myth-afm][myth-afm-link]
+[myth-afm-image][myth-afm-link]
 
 # Credit
 
@@ -28,5 +28,5 @@ This work is licensed under a
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [logo-image]:https://mythicalcatjay.neocities.org/logo.png
 [white-logo-image]:https://mythicalcatjay.neocities.org/Action%20Figure%20Motel%20White.png
-[myth-afm]:https://mythicalcatjay.neocities.org/Buttons/kirke%20action%20figure%20motel%20butten.png
+[myth-afm-image]:https://mythicalcatjay.neocities.org/Buttons/kirke%20action%20figure%20motel%20butten.png
 [myth-afm-link]:https://mythicalcatjay.neocities.org/action_figure_motel/
