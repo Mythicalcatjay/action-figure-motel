@@ -12,7 +12,7 @@ Make your own hotel by importing pages into a website creator like neocities and
 If you have any questions, concerns, or bugs feel free to reach out to me on discord @mythicalcatjay
 
 # Examples
-[![myth-afm-image][myth-afm-link]]
+[![myth-afm][myth-afm-image]][myth-afm-link]
 
 # Credit
 
